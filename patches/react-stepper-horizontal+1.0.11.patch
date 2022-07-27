@@ -1,0 +1,23 @@
+diff --git a/node_modules/react-stepper-horizontal/lib/Step.js b/node_modules/react-stepper-horizontal/lib/Step.js
+index 5bed137..15fcbf1 100644
+--- a/node_modules/react-stepper-horizontal/lib/Step.js
++++ b/node_modules/react-stepper-horizontal/lib/Step.js
+@@ -96,8 +96,7 @@ var Step = function (_Component) {
+           opacity: activeOpacity,
+           borderWidth: activeBorderColor ? defaultBorderWidth : 0,
+           borderColor: activeBorderColor,
+-          borderStyle: activeBorderStyle
+-        },
++          borderStyle: activeBorderStyle        },
+         completedCircle: {
+           backgroundColor: completeColor,
+           opacity: completeOpacity,
+@@ -106,7 +105,7 @@ var Step = function (_Component) {
+           borderStyle: completeBorderStyle
+         },
+         index: {
+-          lineHeight: size + circleFontSize / 4 + 'px',
++          lineHeight: 36 + 'px',
+           color: circleFontColor
+         },
+         title: {

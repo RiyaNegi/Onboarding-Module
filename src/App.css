@@ -1,38 +1,167 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  margin-top: -35px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Inter", sans-serif;
+  color: #12141a;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cover-div {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  width: 80vw;
+}
+.stepper-cover {
+  width: 500px;
+}
+.stepper-cover {
+  width: 500px;
+}
+.page-title {
+  font-size: 20px;
+  display: flex;
+  font-weight: 800;
+  margin-bottom: 35px;
+}
+.form-body {
+  width: 100%;
+  display: flex;
+  margin-top: 50px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-title {
+  font-size: 32px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  text-align: center;
+}
+.form-subtitle {
+  color: gray;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18px;
+  text-align: center;
+}
+.form-div {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 40px;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+}
+.work-url {
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+  display: flex;
+}
+.url-shade {
+  background-color: #f8f9fc;
+  color: gray;
+  width: 30%;
+  border-right: 1px solid #eeeeee;
+  padding: 12px 15px;
+  border-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  font-size: 13px;
+}
+.work-input {
+  border: none;
+  width: 100%;
+  padding-left: 8px;
+}
+.input-row > input {
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+  padding: 12px 15px;
+}
+
+.input-row .input-label {
+  font-size: 14px;
+  font-weight: 700;
+  color: #4d586c;
+  margin: 2px 0px 8px 0px;
+}
+.input-row {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0px;
+}
+.form-next {
+  background-color: #664de5;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
   color: white;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+}
+.form-next:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+.form-cardDiv {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  flex-direction: column;
+  max-width: 400px;
+}
+.form-card-style {
+  width: 35%;
+  padding: 25px;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.form-card-style:hover {
+  border: 1px solid #664de5;
 }
 
-.App-link {
-  color: #61dafb;
+.card-title {
+  color: black;
+  font-weight: 600;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.card-subtitle {
+  color: gray;
+  margin-top: 10px;
+}
+.card-div {
+  display: flex;
+  margin: 15px 0px;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 370px) {
+  .url-shade {
+    background-color: #f8f9fc;
+    color: gray;
+    width: 40%;
+    border-right: 1px solid #eeeeee;
+    padding: 12px 5px;
+    font-size: 11px;
   }
-  to {
-    transform: rotate(360deg);
+}
+@media only screen and (max-width: 500px) {
+  .stepper-cover {
+    width: 80vw;
   }
 }

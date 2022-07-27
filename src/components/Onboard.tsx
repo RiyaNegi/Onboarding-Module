@@ -13,7 +13,7 @@ const Onboard = () => {
   return (
     <div className="form-body">
       <img src={tick} style={{ width: 60, marginBottom: 50 }} />
-      <span className="form-title">
+      <span className="form-title-final">
         Congratulations, {globalStore.nameInfo.displayName}!
       </span>
       <span className="form-subtitle">

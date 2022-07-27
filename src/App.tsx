@@ -15,7 +15,10 @@ function App() {
   return (
     <div className="App">
       <div className="page-title">
-        <img src={eden} style={{ width: 14, marginRight: 5 }} />
+        <img
+          src={eden}
+          style={{ width: 26, marginRight: 5, marginTop: "-2px" }}
+        />
         Eden
       </div>
       <div className="cover-div">

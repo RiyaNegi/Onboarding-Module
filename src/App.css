@@ -7,8 +7,7 @@
   margin-top: -35px;
 }
 body {
-  font-family: "Inter", sans-serif;
-  color: #12141a;
+  color: #2f3548;
 }
 .cover-div {
   display: flex;
@@ -37,13 +36,21 @@ body {
   justify-content: center;
   align-items: center;
 }
-.form-title {
+.form-title-final {
   font-size: 32px;
   font-weight: 700;
   display: flex;
   justify-content: center;
   align-items: center;
   text-transform: capitalize;
+  text-align: center;
+}
+.form-title {
+  font-size: 32px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 .form-subtitle {
@@ -139,7 +146,8 @@ body {
 
 .card-title {
   color: black;
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 14px;
 }
 .card-subtitle {
   color: gray;

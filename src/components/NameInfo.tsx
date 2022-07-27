@@ -18,7 +18,7 @@ const NameInfo = () => {
 
   return (
     <div className="form-body">
-      <span className="form-title">Welcome! First things first!</span>
+      <span className="form-title">Welcome! First things first...</span>
       <span className="form-subtitle"> You can always change it later..</span>
       <form className="form-div" onSubmit={(event) => handleSubmit(event)}>
         <div className="input-row">
